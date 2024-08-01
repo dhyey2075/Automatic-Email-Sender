@@ -6,7 +6,7 @@ export default async function sendEmail(email, subject, text, attachment) {
         service: 'gmail',
         auth: {
           user: 'dhyeyhparekh7@gmail.com', // Your email address
-          pass: 'encx blfq psam piwj'   // Your email password
+          pass: ''   // Your email password
         },
         tls: {
           rejectUnauthorized: false
